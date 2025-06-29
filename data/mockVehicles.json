@@ -1,0 +1,380 @@
+[
+  {
+    "vin": "WDB2020201F685790",
+    "make": "Mercedes-Benz",
+    "model": "A180",
+    "year": 2020,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "WBAVA31070F123456",
+    "make": "BMW",
+    "model": "320i",
+    "year": 2019,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "İç Aksam"]
+  },
+  {
+    "vin": "WAUZZZ8V7KA234567",
+    "make": "Audi",
+    "model": "A4",
+    "year": 2021,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "WVWZZZ1KZ8W345678",
+    "make": "Volkswagen",
+    "model": "Golf",
+    "year": 2018,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon"]
+  },
+  {
+    "vin": "WF0AXXGCDA456789",
+    "make": "Ford",
+    "model": "Focus",
+    "year": 2020,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Klima"]
+  },
+  {
+    "vin": "VF1RFD00555567890",
+    "make": "Renault",
+    "model": "Clio",
+    "year": 2019,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "İç Aksam"]
+  },
+  {
+    "vin": "VF3LCRHZB678901",
+    "make": "Peugeot",
+    "model": "308",
+    "year": 2021,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon"]
+  },
+  {
+    "vin": "ZFA31200007789012",
+    "make": "Fiat",
+    "model": "Egea",
+    "year": 2020,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Klima"]
+  },
+  {
+    "vin": "JTDKN3DU0E0890123",
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2022,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "JHMGE8H59DC901234",
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2021,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "İç Aksam"]
+  },
+  {
+    "vin": "WDB1760241F012345",
+    "make": "Mercedes-Benz",
+    "model": "C200",
+    "year": 2023,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima", "İç Aksam"]
+  },
+  {
+    "vin": "WBAVA51040F123457",
+    "make": "BMW",
+    "model": "X3",
+    "year": 2020,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "WAUZZZ8V2KA234568",
+    "make": "Audi",
+    "model": "Q5",
+    "year": 2022,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "WVWZZZ1KZ9W345679",
+    "make": "Volkswagen",
+    "model": "Passat",
+    "year": 2019,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "İç Aksam"]
+  },
+  {
+    "vin": "WF0BXXGCDB456780",
+    "make": "Ford",
+    "model": "Kuga",
+    "year": 2021,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "VF1RFE00556567891",
+    "make": "Renault",
+    "model": "Megane",
+    "year": 2020,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon"]
+  },
+  {
+    "vin": "VF3LCRHZC678902",
+    "make": "Peugeot",
+    "model": "2008",
+    "year": 2022,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "ZFA31200008789013",
+    "make": "Fiat",
+    "model": "500X",
+    "year": 2019,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "İç Aksam"]
+  },
+  {
+    "vin": "JTDKN3DU1E0890124",
+    "make": "Toyota",
+    "model": "RAV4",
+    "year": 2023,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "JHMGE8H60DC901235",
+    "make": "Honda",
+    "model": "CR-V",
+    "year": 2020,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "WDB2050201F685791",
+    "make": "Mercedes-Benz",
+    "model": "E220",
+    "year": 2021,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima", "İç Aksam"]
+  },
+  {
+    "vin": "WBAVA31071F123458",
+    "make": "BMW",
+    "model": "520i",
+    "year": 2022,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima", "İç Aksam"]
+  },
+  {
+    "vin": "WAUZZZ8V3KA234569",
+    "make": "Audi",
+    "model": "A6",
+    "year": 2020,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "WVWZZZ1KZ0W345680",
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "year": 2021,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "WF0CXXGCDC456781",
+    "make": "Ford",
+    "model": "Mondeo",
+    "year": 2018,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon"]
+  },
+  {
+    "vin": "VF1RFF00557567892",
+    "make": "Renault",
+    "model": "Kadjar",
+    "year": 2021,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "VF3LCRHZD678903",
+    "make": "Peugeot",
+    "model": "3008",
+    "year": 2020,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "ZFA31200009789014",
+    "make": "Fiat",
+    "model": "Tipo",
+    "year": 2022,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "İç Aksam"]
+  },
+  {
+    "vin": "JTDKN3DU2E0890125",
+    "make": "Toyota",
+    "model": "Yaris",
+    "year": 2019,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon"]
+  },
+  {
+    "vin": "JHMGE8H61DC901236",
+    "make": "Honda",
+    "model": "Jazz",
+    "year": 2021,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "İç Aksam"]
+  },
+  {
+    "vin": "KMHJ281DPMU012346",
+    "make": "Hyundai",
+    "model": "i20",
+    "year": 2020,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon"]
+  },
+  {
+    "vin": "KNDJX3AE5K7123457",
+    "make": "Kia",
+    "model": "Ceed",
+    "year": 2021,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Klima"]
+  },
+  {
+    "vin": "YS3FB45S6K1234568",
+    "make": "Saab",
+    "model": "9-3",
+    "year": 2018,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon"]
+  },
+  {
+    "vin": "YV1CZ59H8K2345679",
+    "make": "Volvo",
+    "model": "XC60",
+    "year": 2022,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "SJNFAAJ10U3456780",
+    "make": "Nissan",
+    "model": "Qashqai",
+    "year": 2020,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "JM1BK32F781567891",
+    "make": "Mazda",
+    "model": "CX-5",
+    "year": 2021,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "TMBEJ6NP0K6678902",
+    "make": "Skoda",
+    "model": "Octavia",
+    "year": 2019,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon"]
+  },
+  {
+    "vin": "TMBJJ6NP1K7789013",
+    "make": "Skoda",
+    "model": "Superb",
+    "year": 2022,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima", "İç Aksam"]
+  },
+  {
+    "vin": "TMBEJ6NP2K8890124",
+    "make": "Skoda",
+    "model": "Kodiaq",
+    "year": 2021,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "WVWZZZ1KZ1W901235",
+    "make": "Volkswagen",
+    "model": "Polo",
+    "year": 2020,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "İç Aksam"]
+  },
+  {
+    "vin": "WDB1760242F012346",
+    "make": "Mercedes-Benz",
+    "model": "GLA200",
+    "year": 2022,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "WBAVA51041F123459",
+    "make": "BMW",
+    "model": "X1",
+    "year": 2021,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "WAUZZZ8V4KA234570",
+    "make": "Audi",
+    "model": "Q3",
+    "year": 2020,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "WF0DXXGCDD456782",
+    "make": "Ford",
+    "model": "EcoSport",
+    "year": 2019,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon"]
+  },
+  {
+    "vin": "VF1RFG00558567893",
+    "make": "Renault",
+    "model": "Captur",
+    "year": 2022,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "VF3LCRHZE678904",
+    "make": "Peugeot",
+    "model": "5008",
+    "year": 2021,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "JTDKN3DU3E0890126",
+    "make": "Toyota",
+    "model": "C-HR",
+    "year": 2020,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "JHMGE8H62DC901237",
+    "make": "Honda",
+    "model": "HR-V",
+    "year": 2022,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "KMHJ281DPNU012347",
+    "make": "Hyundai",
+    "model": "Tucson",
+    "year": 2021,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "KNDJX3AE6K7123458",
+    "make": "Kia",
+    "model": "Sportage",
+    "year": 2020,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "YV1CZ59H9K2345680",
+    "make": "Volvo",
+    "model": "V40",
+    "year": 2019,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon"]
+  },
+  {
+    "vin": "SJNFAAJ11U3456781",
+    "make": "Nissan",
+    "model": "Juke",
+    "year": 2021,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon", "Klima"]
+  },
+  {
+    "vin": "JM1BK32F782567892",
+    "make": "Mazda",
+    "model": "3",
+    "year": 2020,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "İç Aksam"]
+  },
+  {
+    "vin": "TMBEJ6NP3K9890125",
+    "make": "Skoda",
+    "model": "Fabia",
+    "year": 2022,
+    "categories": ["Motor", "Fren", "Elektrik", "Gövde", "Süspansiyon"]
+  }
+]

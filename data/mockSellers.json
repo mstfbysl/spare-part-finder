@@ -1,0 +1,526 @@
+{
+  "part-fren-001": [
+    { "name": "Yıldız Oto", "location": "İstanbul", "price": 350, "stock": 12 },
+    { "name": "ParçaDükkanı", "location": "Ankara", "price": 340, "stock": 5 },
+    { "name": "Mega Oto", "location": "İzmir", "price": 365, "stock": 8 },
+    { "name": "Güven Yedek Parça", "location": "Bursa", "price": 355, "stock": 15 }
+  ],
+  "part-fren-002": [
+    { "name": "Arka Fren Uzmanı", "location": "İstanbul", "price": 320, "stock": 10 },
+    { "name": "Fren Merkezi", "location": "Ankara", "price": 315, "stock": 7 },
+    { "name": "Oto Parça Dünyası", "location": "İzmir", "price": 330, "stock": 12 }
+  ],
+  "part-motor-001": [
+    { "name": "Motor Ustası", "location": "İstanbul", "price": 1250, "stock": 3 },
+    { "name": "Piston Merkezi", "location": "Ankara", "price": 1200, "stock": 5 },
+    { "name": "Oto Motor", "location": "İzmir", "price": 1280, "stock": 2 }
+  ],
+  "part-elektrik-001": [
+    { "name": "Akü Dünyası", "location": "İstanbul", "price": 850, "stock": 25 },
+    { "name": "Elektrik Oto", "location": "Ankara", "price": 820, "stock": 18 },
+    { "name": "Güç Merkezi", "location": "İzmir", "price": 870, "stock": 20 },
+    { "name": "Enerji Oto", "location": "Bursa", "price": 840, "stock": 15 }
+  ],
+  "global_sellers": [
+    {
+      "id": "seller-001",
+      "name": "Yıldız Oto Yedek Parça",
+      "location": "İstanbul - Beyoğlu",
+      "phone": "+90 212 555 0101",
+      "email": "info@yildizoto.com",
+      "rating": 4.8,
+      "established": 1995,
+      "specialties": ["Fren", "Motor", "Elektrik"]
+    },
+    {
+      "id": "seller-002",
+      "name": "ParçaDükkanı",
+      "location": "Ankara - Kızılay",
+      "phone": "+90 312 555 0202",
+      "email": "siparis@parcadukani.com",
+      "rating": 4.6,
+      "established": 2001,
+      "specialties": ["Gövde", "İç Aksam", "Klima"]
+    },
+    {
+      "id": "seller-003",
+      "name": "Mega Oto Parça",
+      "location": "İzmir - Konak",
+      "phone": "+90 232 555 0303",
+      "email": "satis@megaoto.com",
+      "rating": 4.7,
+      "established": 1988,
+      "specialties": ["Süspansiyon", "Fren", "Motor"]
+    },
+    {
+      "id": "seller-004",
+      "name": "Güven Yedek Parça",
+      "location": "Bursa - Osmangazi",
+      "phone": "+90 224 555 0404",
+      "email": "musteri@guvenyedekparca.com",
+      "rating": 4.9,
+      "established": 1992,
+      "specialties": ["Motor", "Elektrik", "Süspansiyon"]
+    },
+    {
+      "id": "seller-005",
+      "name": "Oto Parça Dünyası",
+      "location": "Adana - Seyhan",
+      "phone": "+90 322 555 0505",
+      "email": "info@otoparcadunyasi.com",
+      "rating": 4.5,
+      "established": 2005,
+      "specialties": ["Klima", "Elektrik", "İç Aksam"]
+    },
+    {
+      "id": "seller-006",
+      "name": "Fren Merkezi",
+      "location": "Antalya - Muratpaşa",
+      "phone": "+90 242 555 0606",
+      "email": "siparis@frenmerkezi.com",
+      "rating": 4.8,
+      "established": 1999,
+      "specialties": ["Fren"]
+    },
+    {
+      "id": "seller-007",
+      "name": "Motor Ustası",
+      "location": "Gaziantep - Şahinbey",
+      "phone": "+90 342 555 0707",
+      "email": "info@motorustasi.com",
+      "rating": 4.7,
+      "established": 1985,
+      "specialties": ["Motor"]
+    },
+    {
+      "id": "seller-008",
+      "name": "Elektrik Oto",
+      "location": "Konya - Selçuklu",
+      "phone": "+90 332 555 0808",
+      "email": "satis@elektrikoto.com",
+      "rating": 4.6,
+      "established": 2003,
+      "specialties": ["Elektrik"]
+    },
+    {
+      "id": "seller-009",
+      "name": "Süspansiyon Uzmanı",
+      "location": "Kayseri - Melikgazi",
+      "phone": "+90 352 555 0909",
+      "email": "info@suspansiyonuzmani.com",
+      "rating": 4.9,
+      "established": 1997,
+      "specialties": ["Süspansiyon"]
+    },
+    {
+      "id": "seller-010",
+      "name": "Klima Servisi",
+      "location": "Eskişehir - Odunpazarı",
+      "phone": "+90 222 555 1010",
+      "email": "musteri@klimaservisi.com",
+      "rating": 4.7,
+      "established": 2000,
+      "specialties": ["Klima"]
+    },
+    {
+      "id": "seller-011",
+      "name": "Gövde Tamiri",
+      "location": "Diyarbakır - Bağlar",
+      "phone": "+90 412 555 1111",
+      "email": "info@govdetamiri.com",
+      "rating": 4.5,
+      "established": 2008,
+      "specialties": ["Gövde"]
+    },
+    {
+      "id": "seller-012",
+      "name": "İç Aksam Merkezi",
+      "location": "Samsun - İlkadım",
+      "phone": "+90 362 555 1212",
+      "email": "siparis@icaksammerkezi.com",
+      "rating": 4.6,
+      "established": 2002,
+      "specialties": ["İç Aksam"]
+    },
+    {
+      "id": "seller-013",
+      "name": "Oto Ekspertiz",
+      "location": "Trabzon - Ortahisar",
+      "phone": "+90 462 555 1313",
+      "email": "info@otoekspertiz.com",
+      "rating": 4.8,
+      "established": 1993,
+      "specialties": ["Motor", "Fren", "Elektrik"]
+    },
+    {
+      "id": "seller-014",
+      "name": "Parça Pazarı",
+      "location": "Denizli - Pamukkale",
+      "phone": "+90 258 555 1414",
+      "email": "satis@parcapazari.com",
+      "rating": 4.4,
+      "established": 2006,
+      "specialties": ["Gövde", "Süspansiyon"]
+    },
+    {
+      "id": "seller-015",
+      "name": "Oto Teknoloji",
+      "location": "Malatya - Battalgazi",
+      "phone": "+90 422 555 1515",
+      "email": "info@ototeknoloji.com",
+      "rating": 4.7,
+      "established": 2004,
+      "specialties": ["Elektrik", "Klima"]
+    },
+    {
+      "id": "seller-016",
+      "name": "Yedek Parça Merkezi",
+      "location": "Kahramanmaraş - Dulkadiroğlu",
+      "phone": "+90 344 555 1616",
+      "email": "musteri@yedekparcamerkezi.com",
+      "rating": 4.6,
+      "established": 1998,
+      "specialties": ["Motor", "Süspansiyon"]
+    },
+    {
+      "id": "seller-017",
+      "name": "Oto Servis",
+      "location": "Erzurum - Yakutiye",
+      "phone": "+90 442 555 1717",
+      "email": "info@otoservis.com",
+      "rating": 4.5,
+      "established": 2001,
+      "specialties": ["Fren", "İç Aksam"]
+    },
+    {
+      "id": "seller-018",
+      "name": "Parça Deposu",
+      "location": "Van - İpekyolu",
+      "phone": "+90 432 555 1818",
+      "email": "siparis@parcadeposu.com",
+      "rating": 4.3,
+      "established": 2007,
+      "specialties": ["Gövde", "Klima"]
+    },
+    {
+      "id": "seller-019",
+      "name": "Oto Çözüm",
+      "location": "Şanlıurfa - Haliliye",
+      "phone": "+90 414 555 1919",
+      "email": "info@otocozum.com",
+      "rating": 4.7,
+      "established": 2003,
+      "specialties": ["Elektrik", "Motor"]
+    },
+    {
+      "id": "seller-020",
+      "name": "Oto Hizmet",
+      "location": "Balıkesir - Karesi",
+      "phone": "+90 266 555 2020",
+      "email": "info@otohizmet.com",
+      "rating": 4.6,
+      "established": 2005,
+      "specialties": ["Süspansiyon", "Gövde"]
+    },
+    {
+      "id": "seller-021",
+      "name": "Parça Merkezi",
+      "location": "Çorum - Merkez",
+      "phone": "+90 364 555 2121",
+      "email": "satis@parcamerkezi.com",
+      "rating": 4.4,
+      "established": 2009,
+      "specialties": ["İç Aksam", "Klima"]
+    },
+    {
+      "id": "seller-022",
+      "name": "Oto Güvenlik",
+      "location": "Aydın - Efeler",
+      "phone": "+90 256 555 2222",
+      "email": "musteri@otoguvenlik.com",
+      "rating": 4.8,
+      "established": 1996,
+      "specialties": ["Fren", "Elektrik"]
+    },
+    {
+      "id": "seller-023",
+      "name": "Yedek Parça Satış",
+      "location": "Manisa - Yunusemre",
+      "phone": "+90 236 555 2323",
+      "email": "info@yedekparcasatis.com",
+      "rating": 4.5,
+      "established": 2002,
+      "specialties": ["Motor", "Gövde"]
+    },
+    {
+      "id": "seller-024",
+      "name": "Oto Bakım",
+      "location": "Muğla - Menteşe",
+      "phone": "+90 252 555 2424",
+      "email": "siparis@otobakim.com",
+      "rating": 4.7,
+      "established": 2000,
+      "specialties": ["Klima", "Süspansiyon"]
+    },
+    {
+      "id": "seller-025",
+      "name": "Parça Tedarik",
+      "location": "Tekirdağ - Süleymanpaşa",
+      "phone": "+90 282 555 2525",
+      "email": "info@parcatedarik.com",
+      "rating": 4.6,
+      "established": 2004,
+      "specialties": ["Elektrik", "İç Aksam"]
+    },
+    {
+      "id": "seller-026",
+      "name": "Oto Yardım",
+      "location": "Ordu - Altınordu",
+      "phone": "+90 452 555 2626",
+      "email": "musteri@otoyardim.com",
+      "rating": 4.3,
+      "established": 2008,
+      "specialties": ["Fren", "Motor"]
+    },
+    {
+      "id": "seller-027",
+      "name": "Yedek Parça Evi",
+      "location": "Giresun - Merkez",
+      "phone": "+90 454 555 2727",
+      "email": "satis@yedekparcaevi.com",
+      "rating": 4.5,
+      "established": 2006,
+      "specialties": ["Gövde", "Klima"]
+    },
+    {
+      "id": "seller-028",
+      "name": "Oto Destek",
+      "location": "Rize - Merkez",
+      "phone": "+90 464 555 2828",
+      "email": "info@otodestek.com",
+      "rating": 4.4,
+      "established": 2007,
+      "specialties": ["Süspansiyon", "Elektrik"]
+    },
+    {
+      "id": "seller-029",
+      "name": "Parça Satış Merkezi",
+      "location": "Artvin - Merkez",
+      "phone": "+90 466 555 2929",
+      "email": "siparis@parcasatismerkezi.com",
+      "rating": 4.2,
+      "established": 2010,
+      "specialties": ["İç Aksam", "Motor"]
+    },
+    {
+      "id": "seller-030",
+      "name": "Oto Parça Satış",
+      "location": "Kastamonu - Merkez",
+      "phone": "+90 366 555 3030",
+      "email": "info@otoparcasatis.com",
+      "rating": 4.6,
+      "established": 2003,
+      "specialties": ["Fren", "Gövde"]
+    },
+    {
+      "id": "seller-031",
+      "name": "Yedek Parça Deposu",
+      "location": "Sinop - Merkez",
+      "phone": "+90 368 555 3131",
+      "email": "musteri@yedekparcadeposu.com",
+      "rating": 4.3,
+      "established": 2009,
+      "specialties": ["Klima", "Süspansiyon"]
+    },
+    {
+      "id": "seller-032",
+      "name": "Oto Parça Merkezi",
+      "location": "Bartın - Merkez",
+      "phone": "+90 378 555 3232",
+      "email": "satis@otoparcamerkezi.com",
+      "rating": 4.5,
+      "established": 2005,
+      "specialties": ["Elektrik", "Motor"]
+    },
+    {
+      "id": "seller-033",
+      "name": "Parça Dünyası",
+      "location": "Karabük - Merkez",
+      "phone": "+90 370 555 3333",
+      "email": "info@parcadunyasi.com",
+      "rating": 4.4,
+      "established": 2008,
+      "specialties": ["İç Aksam", "Fren"]
+    },
+    {
+      "id": "seller-034",
+      "name": "Oto Yedek Parça",
+      "location": "Zonguldak - Ereğli",
+      "phone": "+90 372 555 3434",
+      "email": "siparis@otoyedekparca.com",
+      "rating": 4.7,
+      "established": 1999,
+      "specialties": ["Gövde", "Klima"]
+    },
+    {
+      "id": "seller-035",
+      "name": "Parça Temin",
+      "location": "Bolu - Merkez",
+      "phone": "+90 374 555 3535",
+      "email": "musteri@parcatemin.com",
+      "rating": 4.6,
+      "established": 2001,
+      "specialties": ["Süspansiyon", "Elektrik"]
+    },
+    {
+      "id": "seller-036",
+      "name": "Oto Servis Merkezi",
+      "location": "Düzce - Merkez",
+      "phone": "+90 380 555 3636",
+      "email": "info@otoservismerkezi.com",
+      "rating": 4.5,
+      "established": 2004,
+      "specialties": ["Motor", "İç Aksam"]
+    },
+    {
+      "id": "seller-037",
+      "name": "Yedek Parça Satış Merkezi",
+      "location": "Yalova - Merkez",
+      "phone": "+90 226 555 3737",
+      "email": "satis@yedekparcasatismerkezi.com",
+      "rating": 4.8,
+      "established": 1997,
+      "specialties": ["Fren", "Gövde"]
+    },
+    {
+      "id": "seller-038",
+      "name": "Oto Parça Tedarik",
+      "location": "Kırıkkale - Merkez",
+      "phone": "+90 318 555 3838",
+      "email": "info@otoparcatedarik.com",
+      "rating": 4.4,
+      "established": 2006,
+      "specialties": ["Klima", "Süspansiyon"]
+    },
+    {
+      "id": "seller-039",
+      "name": "Parça Satış Deposu",
+      "location": "Aksaray - Merkez",
+      "phone": "+90 382 555 3939",
+      "email": "musteri@parcasatisdeposu.com",
+      "rating": 4.3,
+      "established": 2009,
+      "specialties": ["Elektrik", "Motor"]
+    },
+    {
+      "id": "seller-040",
+      "name": "Oto Yardım Merkezi",
+      "location": "Karaman - Merkez",
+      "phone": "+90 338 555 4040",
+      "email": "siparis@otoyardimmerkezi.com",
+      "rating": 4.6,
+      "established": 2002,
+      "specialties": ["İç Aksam", "Fren"]
+    },
+    {
+      "id": "seller-041",
+      "name": "Yedek Parça Mağazası",
+      "location": "Kırşehir - Merkez",
+      "phone": "+90 386 555 4141",
+      "email": "info@yedekparcamagazasi.com",
+      "rating": 4.5,
+      "established": 2005,
+      "specialties": ["Gövde", "Klima"]
+    },
+    {
+      "id": "seller-042",
+      "name": "Oto Parça Satış Merkezi",
+      "location": "Bayburt - Merkez",
+      "phone": "+90 458 555 4242",
+      "email": "satis@otoparcasatismerkezi.com",
+      "rating": 4.2,
+      "established": 2011,
+      "specialties": ["Süspansiyon", "Elektrik"]
+    },
+    {
+      "id": "seller-043",
+      "name": "Parça Tedarik Merkezi",
+      "location": "Karabük - Safranbolu",
+      "phone": "+90 370 555 4343",
+      "email": "musteri@parcatedarikmerkezi.com",
+      "rating": 4.7,
+      "established": 2000,
+      "specialties": ["Motor", "İç Aksam"]
+    },
+    {
+      "id": "seller-044",
+      "name": "Oto Destek Merkezi",
+      "location": "Kilis - Merkez",
+      "phone": "+90 348 555 4444",
+      "email": "info@otodestekmerkezi.com",
+      "rating": 4.4,
+      "established": 2007,
+      "specialties": ["Fren", "Gövde"]
+    },
+    {
+      "id": "seller-045",
+      "name": "Yedek Parça Temin",
+      "location": "Osmaniye - Merkez",
+      "phone": "+90 328 555 4545",
+      "email": "siparis@yedekparcatemin.com",
+      "rating": 4.6,
+      "established": 2003,
+      "specialties": ["Klima", "Süspansiyon"]
+    },
+    {
+      "id": "seller-046",
+      "name": "Oto Parça Deposu",
+      "location": "Düzce - Akçakoca",
+      "phone": "+90 380 555 4646",
+      "email": "info@otoparcadeposu.com",
+      "rating": 4.5,
+      "established": 2006,
+      "specialties": ["Elektrik", "Motor"]
+    },
+    {
+      "id": "seller-047",
+      "name": "Parça Satış Evi",
+      "location": "Bartın - Amasra",
+      "phone": "+90 378 555 4747",
+      "email": "musteri@parcasatisevi.com",
+      "rating": 4.3,
+      "established": 2008,
+      "specialties": ["İç Aksam", "Fren"]
+    },
+    {
+      "id": "seller-048",
+      "name": "Oto Hizmet Merkezi",
+      "location": "Sinop - Boyabat",
+      "phone": "+90 368 555 4848",
+      "email": "satis@otohizmetmerkezi.com",
+      "rating": 4.4,
+      "established": 2009,
+      "specialties": ["Gövde", "Klima"]
+    },
+    {
+      "id": "seller-049",
+      "name": "Yedek Parça Satış Evi",
+      "location": "Kastamonu - Tosya",
+      "phone": "+90 366 555 4949",
+      "email": "info@yedekparcasatisevi.com",
+      "rating": 4.6,
+      "established": 2004,
+      "specialties": ["Süspansiyon", "Elektrik"]
+    },
+    {
+      "id": "seller-050",
+      "name": "Oto Parça Temin Merkezi",
+      "location": "Çankırı - Merkez",
+      "phone": "+90 376 555 5050",
+      "email": "siparis@otoparcateminmerkezi.com",
+      "rating": 4.7,
+      "established": 2001,
+      "specialties": ["Motor", "İç Aksam", "Fren"]
+    }
+  ]
+}
